@@ -20,3 +20,5 @@ python run.py
 ```
 
 - sample.png
+
+![sample](sample.png)
