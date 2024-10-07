@@ -1,5 +1,9 @@
+def create_sample_image():
+    return
+
+
 def main():
-    pass
+    create_sample_image()
 
 
 if __name__ == "__main__":
