@@ -16,6 +16,14 @@ def create_sample_image():
     text_y = (height - text_height) / 2
     draw.text((text_x, text_y), sample_text, fill=(0, 0, 0), font=font)
 
+    margin = 20
+    for i in range(5):
+        rectangle_x0 = text_x - margin - i
+        rectangle_y0 = text_y - margin - i
+        rectangle_x1 = text_x + text_width + margin + i
+        rectangle_y1 = text_y + text_height + margin + i
+        draw.rectangle([rectangle_x0, rectangle_y0, rectangle_x1, rectangle_y1], outline=(0, 0, 0))
+
     return img
 
 
