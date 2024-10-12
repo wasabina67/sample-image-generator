@@ -9,7 +9,12 @@ def create_sample_image():
     font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 80)
 
     sample_text = "Sample Text"
-    return
+    text_width, text_height = draw.textsize(sample_text, font=font)
+    text_x = (width - text_width) / 2
+    text_y = (height - text_height) / 2
+    draw.text((text_x, text_y), sample_text, fill=(0, 0, 0), font=font)
+
+    return img
 
 
 def main():
