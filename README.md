@@ -19,7 +19,7 @@ pipenv sync --dev
 python run.py
 ```
 
-- sample.png
+sample.png
 
 <div align="center">
   <img src="sample.png">
