@@ -21,4 +21,6 @@ python run.py
 
 - sample.png
 
-![sample](sample.png)
+<div align="center">
+  <img src="sample.png">
+</div>
