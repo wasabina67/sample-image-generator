@@ -2,7 +2,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 def create_sample_image():
-    width, height = 1600, 800
+    width, height = 800, 1600
     color = (200, 200, 200)
     img = Image.new("RGB", (width, height), color=color)
     draw = ImageDraw.Draw(img)
