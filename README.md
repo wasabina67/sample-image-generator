@@ -13,14 +13,14 @@ pipenv sync --dev
 
 ## Run
 
-### Create sample.png
+### Create sample_text.png
 
 ```bash
 python run.py
 ```
 
-- sample.png
+- sample_text.png
 
 <div align="center">
-  <img src="sample.png">
+  <img src="sample_text.png">
 </div>
