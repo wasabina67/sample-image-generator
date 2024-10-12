@@ -22,5 +22,5 @@ python run.py
 sample_text.png
 
 <div align="center">
-  <img src="sample_text.png" width=250>
+  <img src="sample_text.png" width=200>
 </div>
